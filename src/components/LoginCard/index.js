@@ -70,8 +70,8 @@ const LoginCard = () => {
         type="button"
         className="guest-button"
         onClick={() => {
-          setEmailInput("robin@rediffmail.com");
-          setPasswordInput("robin@123");
+          setEmailInput("shakil@gmail.com");
+          setPasswordInput("shakil@123");
         }}
       >
         Login as Guest
@@ -123,8 +123,8 @@ const LoginCard = () => {
                 type="button"
                 className="guest-button border border-black px-10 pt-2 pb-1.5"
                 onClick={() => {
-                  setEmailInput("robin@rediffmail.com");
-                  setPasswordInput("robin@123");
+                  setEmailInput("shakil@gmail.com");
+                  setPasswordInput("shakil@123");
                 }}
               >
                 Login as Guest
