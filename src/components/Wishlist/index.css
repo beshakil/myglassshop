@@ -1,0 +1,52 @@
+.empty-wishlist-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: "Josefin Sans";
+}
+
+.empty-wishlist-container > img {
+  width: 250px;
+}
+
+.empty-wishlist-container > h1 {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.empty-wishlist-container > p {
+  color: #9ca3af;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.empty-wishlist-button {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 8px 20px;
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.wishlist-view-title {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.wishlist-items-list-container {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}

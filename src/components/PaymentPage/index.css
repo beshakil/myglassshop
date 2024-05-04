@@ -1,0 +1,158 @@
+.payment-container {
+  background-color: #efefeffa;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 300px;
+  max-width: min(400px, 100%);
+  max-height: 90vh;
+  margin: auto;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 576px) {
+  .payment-container {
+    min-width: 400px;
+  }
+}
+
+.payment-container > header,
+.payment-container > footer {
+  padding: 1rem;
+  background-color: rgb(177, 131, 7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 20px 20px #00000061;
+}
+
+@media screen and (min-width: 768px) {
+  .payment-container > header,
+  .payment-container > footer {
+    padding: 1rem 1.5rem;
+  }
+}
+
+.payment-container > header > h2,
+.payment-container > footer > h2 {
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 700;
+  margin: 0;
+}
+
+.payment-cross-button {
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.payment-container > section {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+.payment-container > section > li {
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #fff;
+  border: 0.2px solid #afacac;
+  margin: 5px 0;
+  padding: 0.6rem;
+  border-radius: 3px;
+  list-style-type: none;
+}
+
+.payment-container > section > li > label > input {
+  margin-right: 15px;
+}
+
+.payment-confirm-button {
+  background-color: rgb(177, 131, 7);
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1;
+  border-radius: 6px;
+  margin: 0;
+  border: 0.3px solid #fff;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 20px;
+}
+
+.upi-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.upi-container > button {
+  padding: 5px;
+  border: 0.1px solid #c0c0c0;
+  margin: 6px;
+  background-color: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.upi-container > button > img {
+  width: 30px;
+  aspect-ratio: 1;
+}
+
+.card-details-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 28px;
+}
+
+.card-details-container > h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #bd8409;
+  margin-top: 4px;
+}
+
+.card-details-container > form {
+}
+
+.card-details-container > form > label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #000000;
+  margin: 0;
+}
+
+.card-details-container > form > label > input {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #141010;
+  border: 0.1px solid #d1cdcd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  letter-spacing: 3px;
+  margin: 5px 0 10px;
+  width: 100%;
+}
+
+.card-details-container > form > label > input::placeholder {
+  font-weight: 300;
+  color: #c4c4c4;
+  letter-spacing: 3px;
+}

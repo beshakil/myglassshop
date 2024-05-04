@@ -1,0 +1,84 @@
+.home-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.home-banner-title {
+  font-family: "Josefin Sans";
+  color: black;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .home-banner-title {
+    font-size: 6rem;
+  }
+}
+
+.home-banner-caption {
+  font-family: "Josefin Sans";
+  color: #4b5563;
+  font-size: 1rem;
+}
+
+.home-banner-button {
+  background-color: #111827;
+  color: #f3f4f6;
+  font-size: 0.9rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+.home-banner-button-2 {
+  color: #111827;
+  background-color: transparent;
+}
+
+.home-banner-image {
+  width: 100%;
+}
+
+.home-banner-image-container {
+  max-width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-banner-image-container {
+    display: none;
+  }
+}
+
+.home-trending-view {
+  padding: 25px 0 10px;
+}
+.home-trending-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px 0;
+}
+
+.home-trending-title {
+  color: black;
+  font-weight: 500;
+}
+
+.home-categories-view {
+  padding: 25px 0 10px;
+}
+
+.home-categories-title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px 0;
+}

@@ -1,0 +1,76 @@
+.bill-card-container {
+  background-color: #ebf1f1;
+  padding: 15px;
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .bill-card-container {
+    margin: 0;
+    margin-left: 15px;
+    width: 30%;
+  }
+}
+
+.bill-card-container > h2 {
+  color: black;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.bill-card-container > ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.bill-item,
+.bill-card-container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.bill-item > p,
+.bill-card-container > div > p {
+  font-size: 1rem;
+  color: #374151;
+  margin: 0;
+}
+
+.bill-item > span {
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 400;
+}
+
+hr {
+  color: rgb(94, 93, 93);
+  width: 100%;
+  height: 1px;
+}
+
+.bill-card-container > div > span {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+}
+
+.bill-checkout-button {
+  color: white;
+  background-color: #252525;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin: 20px 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+  align-self: center;
+}

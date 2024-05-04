@@ -1,0 +1,40 @@
+.error-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-family: "Josefin Sans";
+  margin: auto;
+}
+
+.error-container > img {
+  width: 250px;
+}
+
+.error-container > h1 {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.error-container > p {
+  color: #9ca3af;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.error-button {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 8px 20px;
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: transparent;
+}

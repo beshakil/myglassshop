@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Monoton&display=swap);
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  /* background-color: #88a0d3; */
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+  }
+}
+
+.footer-text {
+  color: rgb(12, 3, 61);
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  font-family: josefin sans;
+}
+
+.footer-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-icon {
+  font-size: 1.5rem;
+  color: rgb(12, 3, 61);
+}
+
+.footer-link {
+  margin: 0 15px;
+}

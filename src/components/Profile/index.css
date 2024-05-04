@@ -1,0 +1,194 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: rgb(240, 243, 243);
+  margin: auto;
+  margin-top: 20px;
+  width: min(500px, 100%);
+}
+
+@media screen and (min-width: 576px) {
+  .profile-container {
+    padding: 25px;
+  }
+}
+
+.profile-buttons-container {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.profile-button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 12px 0;
+  width: 50%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.profile-active {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.profile-details {
+  padding: 15px;
+}
+
+.profile-username {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000000;
+}
+
+.profile-username > span {
+  color: #4b5563;
+  margin-right: 5px;
+}
+
+.profile-logout-button {
+  color: #ffffff;
+  background-color: #e11d48;
+  padding: 8px 15px;
+  width: min(200px, 100%);
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 15px 0;
+}
+
+.profile-add-address-button {
+  color: #ffffff;
+  background-color: #000000;
+  padding: 6px 15px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 15px 0;
+  border-radius: 20px;
+  align-self: flex-start;
+}
+
+.address-card {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+}
+
+.address-card > input {
+  margin-right: 1.1rem;
+}
+
+.address-label {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.address-label > h3 {
+  margin-bottom: 0.4rem;
+  color: #000000;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.address-label > p {
+  margin: 0;
+}
+
+.address-label > p > span {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.address-button {
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  margin-right: 15px;
+  padding-left: 0;
+}
+.address-update {
+  color: #f59e0b;
+}
+
+.address-remove {
+  color: #e11d48;
+}
+
+.address-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.address-form > section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.form-label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.address-form > section > input {
+  color: #000000;
+  border: 1px solid rgb(107, 106, 106);
+  border-radius: 5px;
+  text-indent: 8px;
+  padding: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.input-name,
+.input-mobile,
+.input-city,
+.input-pincode,
+.input-address {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .input-name,
+  .input-mobile,
+  .input-city,
+  .input-pincode {
+    width: 49%;
+  }
+
+  .input-name,
+  .input-city {
+    margin-right: 2%;
+  }
+}
+
+.address-form-button {
+  color: #ffffff;
+  background-color: #274561;
+  padding: 6px 15px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin: 15px 6px;
+  border-radius: 20px;
+}
+
+.address-form-button:hover {
+  background-color: #000000;
+}

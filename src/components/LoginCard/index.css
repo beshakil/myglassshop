@@ -1,0 +1,70 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+  width: 100%;
+}
+
+.login-form > h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.login-form > label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 15px 0 10px;
+}
+
+.login-form > input {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: transparent;
+  color: #ffffff;
+  text-indent: 6px;
+  border: 2px solid #e78606;
+  border-radius: 4px;
+  outline: none;
+  margin: 0 0 10px;
+  padding: 5px;
+}
+
+.login-button,
+.guest-button {
+  width: 100%;
+  max-width: 300px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  align-self: center;
+}
+
+.guest-button {
+  background-color: #ffffff;
+  color: #3a3939;
+}
+
+.create-account-text {
+  font-size: 1rem;
+  color: #c3b8e0;
+  font-weight: 600;
+  align-self: center;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.login-error-msg {
+  color: red;
+  font-size: 1rem;
+  font-weight: 500;
+  align-self: center;
+}

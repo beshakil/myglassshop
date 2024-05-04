@@ -1,0 +1,271 @@
+* {
+  margin: 0px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px;
+  width: 95%;
+}
+
+@media screen and (max-width: 639px) {
+  nav {
+    padding-bottom: 0;
+  }
+}
+
+nav > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 375px) {
+  nav {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    width: 85%;
+  }
+}
+
+nav > div > section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-user-profile {
+  color: #eab308;
+}
+
+.navbar-logo {
+  font-family: "monoton";
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: transparent;
+  background-size: 300%;
+  /* background-image: linear-gradient(
+    -45deg,
+    #ff9f1c,
+    #ffbf69,
+    #f0f07a,
+    #befaf6,
+    #2ec4b6
+  ); */
+  background-color: #000000;
+  background-clip: text;
+  animation: logoAnimation 2s ease-in-out 0s infinite alternate;
+  margin: 0;
+}
+
+@keyframes logoAnimation {
+  0% {
+    background-position: left;
+  }
+
+  100% {
+    background-position: right;
+  }
+}
+
+.searchbar-container {
+  background-color: rgb(241, 247, 246);
+  border-radius: 30px;
+  overflow: hidden;
+  width: min(280px, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar-lg {
+  display: none;
+}
+.searchbar-sm {
+  width: 100%;
+  margin: 15px 0px;
+}
+
+@media screen and (min-width: 640px) {
+  .searchbar-lg {
+    display: flex;
+  }
+
+  .searchbar-sm {
+    display: none;
+  }
+
+  .searchbar-container {
+    width: min(250px, 100%);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .searchbar-container {
+    width: min(300px, 100%);
+  }
+}
+
+.navbar-search-input {
+  padding: 5px 0px;
+  color: #000000;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-indent: 20px;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.navbar-search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  padding: 0px 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.navbar-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+}
+
+.navbar-products-button {
+  color: #fffff0;
+  background-color: #a16207;
+}
+
+.navbar-products-button > span {
+  display: none;
+}
+
+@media screen and (min-width: 375px) {
+  .navbar-products-icon {
+    display: none;
+  }
+
+  .navbar-products-button > span {
+    display: flex;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-products-button > span {
+    font-size: 0.9rem;
+  }
+}
+
+.navbar-hamburger-button {
+  color: #fffff0;
+  background-color: #eab308;
+  z-index: 5;
+}
+
+.navbar-bookmark-button {
+  display: flex;
+  background-color: #caca85;
+  color: #000000;
+  border-radius: 50%;
+  padding: 8px;
+  position: relative;
+}
+
+.navbar-button-display {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-button-display {
+    display: flex;
+  }
+}
+
+.navbar-cart-button {
+  display: flex;
+  color: #fffff0;
+  background-color: #eab308;
+  border-radius: 50%;
+  padding: 8px;
+  position: relative;
+}
+
+.navbar-cart-count {
+  color: #ffffff;
+  background-color: rgb(233, 23, 23);
+  border-radius: 50%;
+  border: 2px solid white;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  top: -0.9rem;
+  right: -0.75rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.navbar-hamburger {
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-hamburger {
+    display: none;
+  }
+}
+
+.navbar-hamburger-menu-container {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 3px;
+}
+
+.display-hamburger {
+  display: flex;
+}
+
+.navbar-hamburger-menu {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: none;
+  width: 100%;
+}

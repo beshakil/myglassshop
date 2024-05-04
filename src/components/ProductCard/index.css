@@ -1,0 +1,154 @@
+.product-card {
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #EAEAE8;
+  transition: all 0s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}
+.product-card:hover {
+  transform: scale(1.01);
+  /* box-shadow: 0 0 20px 4px #9ca3af; */
+}
+.product-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image {
+  width: 100%;
+  object-fit: contain;
+  aspect-ratio: 1.7;
+}
+
+@media screen and ((min-width: 500px) and (max-width: 768px)) {
+  .product-card {
+    flex-direction: row;
+  }
+
+  .product-image-container {
+    width: 40%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .product-image {
+    object-fit: contain;
+    aspect-ratio: initial;
+  }
+}
+
+.product-card > div {
+  background-color: #FDFDFB;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+@media screen and ((min-width: 500px) and (max-width: 768px)) {
+  .product-card > div {
+    justify-content: space-evenly;
+    width: 60%;
+  }
+}
+
+.product-card > div > section {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.product-card > div > section:first-child {
+  flex-grow: 1;
+}
+
+.product-card-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card-details > h2 {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  flex-grow: 1;
+}
+
+.product-card-details > p {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.product-card-details > p > span {
+  color: #9ca3af;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.color-yellow {
+  color: rgb(236, 221, 82);
+}
+
+.product-card-brand {
+  color: #4b5563 !important;
+  font-weight: 400 !important;
+  font-size: 0.9rem !important;
+}
+
+.product-card-price {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.product-card-price > p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #d97706;
+  font-weight: 500;
+}
+
+.product-card-price > del {
+  color: #4b5563;
+  font-size: 0.8rem;
+}
+
+hr {
+  margin: 0;
+  align-self: flex-end;
+}
+
+.product-card-button {
+  outline: none;
+  cursor: pointer;
+  color: black;
+  padding: 5px 16px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: transparent;
+  font-size: 0.9rem;
+}
+
+.product-card-button:hover {
+  color: white;
+  background-color: black;
+}
+
+.product-bookmark-button {
+  background-color: transparent;
+  color: black;
+  font-size: 2rem;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.color-red {
+  color: #ec3a3a;
+}

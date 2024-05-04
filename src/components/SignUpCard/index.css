@@ -1,0 +1,63 @@
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: transparent;
+}
+
+.sign-up-form > h1 {
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.sign-up-form > input {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: transparent;
+  text-indent: 6px;
+  border: 1.5px solid #f89009;
+  border-radius: 4px;
+  outline: none;
+  margin: 20px 0 8px;
+  padding: 4px;
+}
+
+.sign-up-form > button {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #3a3939;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  padding: 6px 50px;
+  margin: 20px 0 10px;
+  align-self: center;
+}
+
+.login-text {
+  font-size: 0.9rem;
+  color: #bcbbca;
+  font-weight: 500;
+  align-self: center;
+}
+
+.login-text > span {
+  font-size: 1rem;
+  color: #adadad;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sign-up-error-msg {
+  color: red;
+  font-size: 1rem;
+  font-weight: 500;
+  align-self: center;
+}

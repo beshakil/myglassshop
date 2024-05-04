@@ -1,0 +1,26 @@
+.category-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  aspect-ratio: 3/2;
+  transition: smooth 0.5s;
+}
+
+.category-card:hover {
+  background-size: 105%;
+  transition: smooth 0.5s;
+}
+
+.category-card > p {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 2.5rem;
+  margin: 0;
+  text-align: center;
+  overflow: hidden;
+}
