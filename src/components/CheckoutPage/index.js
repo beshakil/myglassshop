@@ -215,7 +215,7 @@ const CheckoutPage = () => {
       {addNewAddress && renderAddressForm()}
       {addressList &&
         addressList.map((address) => (
-          <li key={address.id} className="address-card mb-3">
+          <li key={address.id} className="address-card mb-3 !bg-[#F9FAFB]">
             <input
               type="radio"
               id={address.id}
@@ -255,8 +255,8 @@ const CheckoutPage = () => {
               <div>
                 <p className="order-summary-product-title">{product.name}</p>
                 <p className="order-summary-product-title">
-                  ₹{product.newPrice}
-                  <del>₹{product.price}</del>
+                ৳ {product.newPrice}
+                  <del>৳ {product.price}</del>
                 </p>
               </div>
               <p className="order-summary-product-title">x{product.qty}</p>
@@ -271,11 +271,11 @@ const CheckoutPage = () => {
       </div>
       <div>
         <p>Subtotal</p>
-        <span>₹ {subtotal}</span>
+        <span>৳ {subtotal}</span>
       </div>
       <div>
         <p>Discount</p>
-        <span>-₹ {totalDiscount}</span>
+        <span>-৳ {totalDiscount}</span>
       </div>
       <div>
         <p>Delivery Charges</p>
@@ -284,7 +284,7 @@ const CheckoutPage = () => {
       <hr />
       <div>
         <p className="order-summary-total">Total</p>
-        <span className="order-summary-total">₹ {total}</span>
+        <span className="order-summary-total">৳ {total}</span>
       </div>
       <button
         type="button"
@@ -335,11 +335,11 @@ const CheckoutPage = () => {
           </div>
           <div>
             <p>Subtotal</p>
-            <span>₹ {subtotal}</span>
+            <span>৳ {subtotal}</span>
           </div>
           <div>
             <p>Discount</p>
-            <span>-₹ {totalDiscount}</span>
+            <span>-৳ {totalDiscount}</span>
           </div>
           <div>
             <p>Delivery Charges</p>
@@ -348,7 +348,7 @@ const CheckoutPage = () => {
           <hr />
           <div>
             <p>Total</p>
-            <span>₹ {total}</span>
+            <span>৳ {total}</span>
           </div>
         </div>
         <button

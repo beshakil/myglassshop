@@ -112,7 +112,7 @@ const Profile = () => {
         <span>Username: </span>
         {username}
       </p>
-      <p className="profile-username">
+      <p className="profile-username pb-4">
         <span>Email: </span>
         {email}
       </p>

@@ -24,7 +24,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0 20px 20px #00000061;
 }
 
 @media screen and (min-width: 768px) {

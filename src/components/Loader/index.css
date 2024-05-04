@@ -12,24 +12,23 @@
 }
 
 .loader-text {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  filter: drop-shadow(0 0 7px #150850);
+  font-family: "monoton";
+  font-size: 1.9rem;
+  font-weight: 500;
   color: transparent;
-  background-image: linear-gradient(
+  background-size: 300%;
+  /* background-image: linear-gradient(
     -45deg,
-    #7bdff2,
-    #b2f7ef,
-    #eff7f6,
-    #f7d6e0,
-    #f2b5d4
-  );
+    #ff9f1c,
+    #ffbf69,
+    #f0f07a,
+    #befaf6,
+    #2ec4b6
+  ); */
+  background-color: #000000;
   background-clip: text;
-  background-size: 400%;
-  transition: all 2s cubic-bezier(0.175, 0.885, 0.32, 1.275) 2s;
-  animation: loaderAnimation 2s ease-in-out 0s infinite alternate;
-  overflow: hidden;
+  animation: logoAnimation 2s ease-in-out 0s infinite alternate;
+  margin: 0;
 }
 
 @keyframes loaderAnimation {

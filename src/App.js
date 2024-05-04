@@ -45,36 +45,28 @@ function App() {
                 exact
                 path="/products"
                 element={
-                  <ProtectedRoute>
                     <Products />
-                  </ProtectedRoute>
                 }
               />
               <Route
                 exact
                 path="/product/:id"
                 element={
-                  <ProtectedRoute>
                     <ProductDetailsCard />
-                  </ProtectedRoute>
                 }
               />
               <Route
                 exact
                 path="/cart"
                 element={
-                  <ProtectedRoute>
                     <Cart />
-                  </ProtectedRoute>
                 }
               />
               <Route
                 exact
                 path="/wishlist"
                 element={
-                  <ProtectedRoute>
                     <Wishlist />
-                  </ProtectedRoute>
                 }
               />
               <Route

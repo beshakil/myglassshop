@@ -66,8 +66,8 @@ const ProductCard = (props) => {
               <p className="product-card-brand">{brand}</p>
             </div>
             <div className="product-card-price">
-              <p>₹{newPrice}</p>
-              <del>₹{price}</del>
+              <p>৳ {newPrice}</p>
+              <del>৳ {price}</del>
             </div>
           </section>
           <hr />

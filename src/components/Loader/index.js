@@ -7,7 +7,7 @@ const Loader = () => (
       alt="loader"
       className="loader-image"
     />
-    <p className="loader-text">eyesome</p>
+    <p className="loader-text">myglass</p>
   </div>
 );
 

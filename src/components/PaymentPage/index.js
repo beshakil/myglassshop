@@ -149,7 +149,7 @@ const PaymentPage = (props) => {
     <div className="eyesome-modal">
       <div className="payment-container">
         <header>
-          <h2>Eyesome Payments</h2>
+          <h2>Payments</h2>
           <button
             type="button"
             className="payment-cross-button"
@@ -161,23 +161,6 @@ const PaymentPage = (props) => {
           </button>
         </header>
         <section>
-          <li>
-            <label htmlFor="upi">
-              <input
-                type="radio"
-                id="upi"
-                name="paymentMethod"
-                onChange={() => {
-                  setDisplayUpi(true);
-                  setDisplayDebit(false);
-                  setDisplayCredit(false);
-                  setDisplayNetBanking(false);
-                }}
-              />
-              UPI
-            </label>
-            {displayUpi && renderUpiView()}
-          </li>
           <li>
             <label htmlFor="credit">
               <input
@@ -248,7 +231,7 @@ const PaymentPage = (props) => {
           </li>
         </section>
         <footer>
-          <h2>₹ {total}</h2>
+          <h2>৳ {total}</h2>
           <button
             type="button"
             className="payment-confirm-button"
