@@ -2,7 +2,7 @@
 
 <h2>🚀 Demo: https://myglassshop.vercel.app/</h2>
 
-<img align="center" src="https://i.ibb.co/1R0WdCL/My-Glass-Shop.png" alt="project-screenshot" width="400" height="400/">
+<img align="center" src="https://i.ibb.co/1R0WdCL/My-Glass-Shop.png" alt="project-screenshot" width="500" height="500/">
 
 ### Introduction
 
