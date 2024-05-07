@@ -6,10 +6,10 @@
 
 ### Introduction
 
-In this project, I build a **Eyesome App** similar to Lenskart - Clone.
-Eyesome App is your one-stop destination for all your eyewear needs, bringing the convenience of online shopping to the world of eyewear. Inspired by the success of Lenskart, Eyesome App offers a seamless and user-friendly e-commerce platform designed for purchasing eyewear online. Whether you're looking for stylish eyeglasses, fashionable sunglasses, Eyesome App has you covered.
+In this project, I build a **Myglass App** similar to Lenskart - Clone.
+Myglass App is your one-stop destination for all your eyewear needs, bringing the convenience of online shopping to the world of eyewear. Inspired by the success of Lenskart, Myglass App offers a seamless and user-friendly e-commerce platform designed for purchasing eyewear online. Whether you're looking for stylish eyeglasses, fashionable sunglasses, Myglass App has you covered.
 
-This README provides essential information about Eyesome App, guiding you through its features, installation, and usage. A user looking to make the most of the app, this document serves as your comprehensive guide.
+This README provides essential information about Myglass App, guiding you through its features, installation, and usage. For a user looking to make the most of the app, this document serves as your comprehensive guide.
 
 <details>
     <summary>Route Names</summary>
@@ -99,7 +99,7 @@ This README provides essential information about Eyesome App, guiding you throug
 - **Deployment:**
 
   - Prepared the app for deployment by configuring build scripts, optimizing assets, and setting up a production environment.
-  - Choosed a hosting platform Netlify for deploying Eyesome App.
+  - Choosed a hosting platform Netlify for deploying Myglass App.
 
 </details>
 <br />
