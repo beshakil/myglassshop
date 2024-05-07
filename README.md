@@ -1,5 +1,3 @@
-# Welcome to the "Eyesome App"
-
 <h1 align="center" id="title">Welcome to the "Myglass Shop"</h1>
 
 <h2>🚀 Demo</h2>
@@ -8,7 +6,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://i.ibb.co/1R0WdCL/My-Glass-Shop.png" alt="project-screenshot" width="400" height="400/">
+<img align="center" src="https://i.ibb.co/1R0WdCL/My-Glass-Shop.png" alt="project-screenshot" width="400" height="400/">
 
 ### Introduction
 
