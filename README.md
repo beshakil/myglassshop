@@ -2,9 +2,9 @@
 
 <h2>🚀 Demo: https://myglassshop.vercel.app/</h2>
 
-<div style="display:flex; justify-content: center;">
-    <img style="text-align:center;" src="https://i.ibb.co/1R0WdCL/My-Glass-Shop.png" alt="project-screenshot" width="500" height="500/">
-</div>
+<p align="center">
+    <img src="https://i.ibb.co/1R0WdCL/My-Glass-Shop.png" alt="project-screenshot" width="500" height="500/">
+</p>
 
 ### Introduction
 
