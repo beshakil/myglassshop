@@ -12,7 +12,7 @@ In this project, I build a **Myglass App** similar to Lenskart - Clone.
 Myglass App is your one-stop destination for all your eyewear needs, bringing the convenience of online shopping to the world of eyewear. Inspired by the success of Lenskart, Myglass App offers a seamless and user-friendly e-commerce platform designed for purchasing eyewear online. Whether you're looking for stylish eyeglasses, fashionable sunglasses, Myglass App has you covered.
 
 This README provides essential information about Myglass App, guiding you through its features, installation, and usage. For a user looking to make the most of the app, this document serves as your comprehensive guide.
-
+<br />
 <details>
     <summary>Route Names</summary>
 <br />
